@@ -7,6 +7,9 @@
 </head>
 
 <body>
+
+    <!-- Validation below for user to ensure that they are already logged -->
+
     <div class="container my-5">
         <div class="row">
 
@@ -27,7 +30,10 @@
                     <div class="card-header">
                         <div class="d-flex justify-content-between">
                             <h2>List Articles</h2>
-                            <a href="add.php" class="btn btn-primary">Add Article</a>
+                            <div>
+                                <a href="add.php" class="btn btn-primary">Add Article</a>
+                                <a href="auth/logout.php" class="btn btn-danger">Logout</a>
+                            </div>
                         </div>
                     </div>
                     <div class="card-body">
